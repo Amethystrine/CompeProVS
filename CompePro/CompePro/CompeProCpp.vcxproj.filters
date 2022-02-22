@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\libs">
+      <UniqueIdentifier>{34759914-d549-470e-9ab8-763a4a004ba7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\libs\Graph">
+      <UniqueIdentifier>{4ce58bc4-f273-4892-ab09-088e7c31c7eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\libs\Math">
+      <UniqueIdentifier>{ec7fb23c-efb5-4d8e-b61f-96ebc569d7dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\libs\Bit">
+      <UniqueIdentifier>{b1ad7f77-828d-45e3-a3c9-a2a5b0e22dec}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="head.cpp">
+      <Filter>ソース ファイル\libs</Filter>
+    </ClCompile>
+    <ClCompile Include="MaxFlow.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="MinCostFlow.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="BasicGraph.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="BellmanFord.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Dijkstra.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="WarshallFloyd.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="Scc.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="SegTree.cpp">
+      <Filter>ソース ファイル\libs\Bit</Filter>
+    </ClCompile>
+    <ClCompile Include="BIT.cpp">
+      <Filter>ソース ファイル\libs\Bit</Filter>
+    </ClCompile>
+    <ClCompile Include="UnionFind_Kraskal.cpp">
+      <Filter>ソース ファイル\libs\Graph</Filter>
+    </ClCompile>
+    <ClCompile Include="MathUtil.cpp">
+      <Filter>ソース ファイル\libs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="BitUtil.cpp">
+      <Filter>ソース ファイル\libs\Bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix.cpp">
+      <Filter>ソース ファイル\libs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="2SAT.cpp">
+      <Filter>ソース ファイル\libs\Bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Convolution.cpp">
+      <Filter>ソース ファイル\libs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="LazySegTree.cpp">
+      <Filter>ソース ファイル\libs\Bit</Filter>
+    </ClCompile>
+    <ClCompile Include="Crt.cpp">
+      <Filter>ソース ファイル\libs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="FloorSum.cpp">
+      <Filter>ソース ファイル\libs\Math</Filter>
+    </ClCompile>
+    <ClCompile Include="Mod.cpp">
+      <Filter>ソース ファイル\libs</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
